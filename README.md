@@ -16,6 +16,7 @@ To tackle both the issues, We can deploy a Rasa bot which will be up to date wit
 - Rasa URLs have been added in `constants.py` file.
 - You'll get the response along with the URL from which the response is coming from and sources from which the response has been framed. A sample is shown below.
   ![image](https://github.com/anoopshrma/Rasa-Docs-with-LLM/assets/26565263/202d97e8-6587-4f08-bd9a-b3e50c01aa5f)
+- Currently I have added the indexes, So it will not create new indexes. If you wish to add more urls and test on them. You'll have to remove the Storage folder and add urls in `constants.py` and restart the server.
 
 # Install the required dependencies
 ```
